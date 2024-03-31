@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #1a73e8;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  overflow: auto;
+}
+
+.sidebar {
+  background-color: #f0f0f0;
+  width: 200px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.sidebar li:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.sidebar li.active {
+  background-color: #c0c0c0;
+  font-weight: bold;
+}
+
+.content {
+  background-color: white;
+  flex: 1;
+  padding: 20px;
+}
+
+.meal {
+  margin-bottom: 20px;
+}
+
+.meal h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.meal ul {
+  list-style: none;
+}
+
+.nutrition-info {
+  margin-top: 10px;
+}
+
+.nutrition-info p {
+  font-size: 14px;
+  color: #808080;
+}
